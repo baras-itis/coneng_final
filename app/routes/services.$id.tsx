@@ -21,7 +21,7 @@ export default function ServicesPage() {
   if (!service) {
     return (
       <div className="container mx-auto px-4 py-8 col-span-full">
-        <h2 className="text-2xl font-bold text-red-600">Service not found</h2>
+        <h2 className="text-2xl font-bold text-coneng">Service not found</h2>
         <Link to="/services" className="text-blue-600 hover:underline">
           ← Back to Services
         </Link>
@@ -32,7 +32,7 @@ export default function ServicesPage() {
   return (
     <>
       <header className="w-full col-span-full pt-16 pb-12 md:pb-20 xl:pb-28 flex justify-end px-4 md:px-11">
-        <h1 className="font-light uppercase text-6xl md:text-7xl  tracking-wide text-neutral-950">
+        <h1 className="font-light uppercase text-4xl text-coneng md:text-7xl  tracking-wide ">
           {service.title}
         </h1>
       </header>
@@ -47,9 +47,10 @@ export default function ServicesPage() {
           >
             {service.intro_title}{" "}
           </h2>
-          <p className="font-light text-sm md:text-base leading-relaxed text-neutral-600 uppercase">
-            Planning and Design is a key focus of our company Coneng. Our
-            {service.intro_text}
+          <p className="font-light text-sm w-full md:text-base leading-relaxed text-neutral-600 ">
+            {service.intro_text.map((text, index) => (
+              <p key={index}>{text}</p>
+            ))}{" "}
           </p>
         </section>
 
@@ -74,7 +75,7 @@ export default function ServicesPage() {
         {/* --- LOWER CONTENT: IMAGE & DETAILED SPECS --- */}
         <section className="col-span-full grid grid-cols-subgrid gap-y-8 items-start pt-8 border-t border-neutral-100">
           {/* Main Visual Asset Field */}
-          <div className="hidden md:grid col-span-2 md:col-span-4 xl:col-span-8 bg-neutral-100 aspect-[16/10] overflow-hidden">
+          <div className="hidden md:grid col-span-2 md:col-span-4 xl:col-span-7 bg-neutral-100 aspect-video overflow-hidden">
             <img
               srcSet={service.images.join(", ")}
               sizes="(max-width: 480px) 450px, (max-width: 800px) 770px, 1200px"
@@ -85,13 +86,12 @@ export default function ServicesPage() {
               decoding="async"
             />
           </div>
-
           {/* Detailed Narrative Sidebar Block */}
           <div className="col-span-2 md:col-span-2 xl:col-span-4 xl:pl-4 flex flex-col gap-y-6 text-left">
             <h2 className="text-lg md:text-xl font-normal text-neutral-950 tracking-tight">
               {service.content_title}
             </h2>
-            <div className="space-y-4 font-light text-neutral-700 text-sm md:text-base leading-relaxed">
+            <div className="space-y-4 font-light text-neutral-700  md:text-base leading-relaxed">
               {service.paragraphs.map((item) => {
                 return <p key={item}> {item}</p>;
               })}

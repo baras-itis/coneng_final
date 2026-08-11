@@ -94,15 +94,15 @@ const Form = () => {
                 onChange={handleChange}
                 value={formData[item.name]}
                 placeholder=" "
-                className="peer w-full bg-white border-b-2 border-neutral-300 py-3 text-lg sm:text-xl font-normal text-neutral-900 focus:outline-none focus:border-coneng-red transition-colors duration-200 rounded-none order-2"
+                className="peer w-full bg-white border-b-2 border-neutral-300 py-3 text-lg sm:text-xl font-normal text-neutral-900 focus:outline-none focus:border-coneng transition-colors duration-200 rounded-none order-2"
               />
               <label
                 htmlFor={item.name}
-                className="text-xs sm:text-sm font-semibold tracking-widest text-neutral-500 uppercase transition-all duration-200 transform origin-left order-1 peer-placeholder-shown:translate-y-7 peer-placeholder-shown:text-lg peer-placeholder-shown:font-normal peer-placeholder-shown:text-neutral-400 peer-focus:translate-y-0 peer-focus:text-xs peer-focus:font-semibold peer-focus:text-coneng-red"
+                className="text-xs sm:text-sm font-semibold tracking-widest text-neutral-500 uppercase transition-all duration-200 transform origin-left order-1 peer-placeholder-shown:translate-y-7 peer-placeholder-shown:text-lg peer-placeholder-shown:font-normal peer-placeholder-shown:text-neutral-400 peer-focus:translate-y-0 peer-focus:text-xs peer-focus:font-semibold peer-focus:text-coneng"
               >
                 {item.title}
                 {(item.name === "firstName" || item.name === "email") && (
-                  <span className="text-coneng-red ml-1">*</span>
+                  <span className="text-coneng ml-1">*</span>
                 )}
               </label>
             </div>
@@ -117,13 +117,13 @@ const Form = () => {
               onChange={handleChange}
               value={formData.message}
               placeholder=" "
-              className="peer w-full bg-white border-b-2 border-neutral-300 py-3 text-lg sm:text-xl font-normal text-neutral-900 focus:outline-none focus:border-coneng-red transition-colors duration-200 rounded-none resize-none order-2"
+              className="peer w-full bg-white border-b-2 border-neutral-300 py-3 text-lg sm:text-xl font-normal text-neutral-900 focus:outline-none focus:border-coneng transition-colors duration-200 rounded-none resize-none order-2"
             />
             <label
               htmlFor="message"
-              className="text-xs sm:text-sm font-semibold tracking-widest text-neutral-500 uppercase transition-all duration-200 transform origin-left order-1 peer-placeholder-shown:translate-y-7 peer-placeholder-shown:text-lg peer-placeholder-shown:font-normal peer-placeholder-shown:text-neutral-400 peer-focus:translate-y-0 peer-focus:text-xs peer-focus:font-semibold peer-focus:text-coneng-red"
+              className="text-xs sm:text-sm font-semibold tracking-widest text-neutral-500 uppercase transition-all duration-200 transform origin-left order-1 peer-placeholder-shown:translate-y-7 peer-placeholder-shown:text-lg peer-placeholder-shown:font-normal peer-placeholder-shown:text-neutral-400 peer-focus:translate-y-0 peer-focus:text-xs peer-focus:font-semibold peer-focus:text-coneng"
             >
-              Message <span className="text-coneng-red ml-1">*</span>
+              Message <span className="text-coneng ml-1">*</span>
             </label>
           </div>
 
@@ -140,14 +140,14 @@ const Form = () => {
                 </span>
               )}
               {status.error && (
-                <span className="text-coneng-red">{status.error}</span>
+                <span className="text-coneng">{status.error}</span>
               )}
             </div>
 
             <button
               type="submit"
               disabled={status.loading}
-              className="w-full sm:w-auto min-w-70 lg:min-w-[320px] px-10 py-5 bg-neutral-950 text-white hover:bg-coneng-red disabled:bg-neutral-200 disabled:text-neutral-400 transition-colors duration-300 text-sm tracking-widest uppercase font-bold rounded-none order-1 sm:order-2 self-end"
+              className="w-full sm:w-auto min-w-70 lg:min-w-[320px] px-10 py-5 bg-neutral-950 text-white hover:bg-coneng disabled:bg-neutral-200 disabled:text-neutral-400 transition-colors duration-300 text-sm tracking-widest uppercase font-bold rounded-none order-1 sm:order-2 self-end"
             >
               Send Request
             </button>

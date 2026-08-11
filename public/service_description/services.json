@@ -2,23 +2,16 @@
   "services": [
     {
       "id": "design",
-
       "title": "Design",
-
       "intro_title": "Design and Detailed Design Stages",
-
       "intro_text": [
-        "Planning and Design is a key focus of our company Coneng..."
+        "Planning and Design is a key focus of our company Coneng. Our activities are based not only on the design experience, but also on the understanding of the construction procedure itself. Therefore we guarantee the development of real completed projects."
       ],
-
       "content_title": "Detailed Design Information",
-
       "paragraphs": [
-        "Adabar coneng has all the necessary permits...",
-
-        "At the Basic Design stage, our engineers..."
+        "Adabar coneng has all the necessary permits for preparing the Basic and Detailed design documents.",
+        "At the Basic Design stage, our engineers and technical experts develop the facility layout; work out the architectural, construction & technological solutions taking into account its functions, convenience and safety & environmental requirements. The prepared design documents and proposed solutions are done accordingly to the requirements of the government expert review panel. Moreover, we carry out constant quality control of the documents executed."
       ],
-
       "image_source": "design",
       "images": [
         "/services/design/design-1200.webp",
@@ -26,26 +19,18 @@
         "/services/design/design-480.webp"
       ]
     },
-
     {
       "id": "preconstruction",
-
       "title": "Preconstruction",
-
       "intro_title": "Value Analysis & Budgeting",
-
       "intro_text": [
-        "Through pre-construction value analysis we create a complete budget..."
+        "Through pre-construction value analysis we create a complete budget, accurate schedule and a clear set of priorities, thereby making the best use of your funds from the outset in terms of cost and operational efficiency."
       ],
-
       "content_title": "Strategic Execution",
-
       "paragraphs": [
-        "Early alignment during the pre-construction phase...",
-
-        "By finalizing bid packages, balancing alternative cost studies..."
+        "Early alignment during the pre-construction phase guarantees that resources are properly deployed before groundbreaking begins on site.",
+        "By finalizing bid packages, balancing alternative cost studies, and securing critical approvals early, we eliminate downstream project volatility, keeping execution predictable, on-time, and strictly on-budget."
       ],
-
       "image_source": "preconstruction",
       "images": [
         "/services/preconstruction/preconstruction-1200.webp",
@@ -53,24 +38,18 @@
         "/services/preconstruction/preconstruction-480.webp"
       ]
     },
-
     {
       "id": "construction",
-
       "title": "Construction",
-
       "intro_title": "Partnership & Operational Readiness",
-
-      "intro_text": ["Once we've been awarded a construction project..."],
-
-      "content_title": "Execution Architecture",
-
-      "paragraphs": [
-        "During the construction phase, our focus shifts...",
-
-        "Rigorous alignment under strict ISO 9001 criteria..."
+      "intro_text": [
+        "Once we've been awarded a construction project, we immediately begin the management process and remain your partner until the project is complete and the building is fully operational, ensuring that the building meets your expectations."
       ],
-
+      "content_title": "Execution Architecture",
+      "paragraphs": [
+        "During the construction phase, our focus shifts to the continuous monitoring of manpower, quality, schedule, and project costs to fully implement the design and ensure that all deadlines are met.",
+        "Rigorous alignment under strict ISO 9001 criteria guarantees that subcontractor logistics, material workflows, and structural tolerances converge predictably toward commissioning and successful handover."
+      ],
       "image_source": "construction",
       "images": [
         "/services/construction/construction-1200.webp",
@@ -78,26 +57,18 @@
         "/services/construction/construction-480.webp"
       ]
     },
-
     {
       "id": "commissioning",
-
       "title": "Commissioning",
-
       "intro_title": "Lifecycle Transition Support",
-
       "intro_text": [
-        "Our comprehensive range of services during the construction..."
+        "Our comprehensive range of services during the construction and commissioning phases offers you an effective support to successfully guide your industrial plant from the planning phase right through to operation."
       ],
-
       "content_title": "Compliance & Handover",
-
       "paragraphs": [
-        "We ensure all documents, certificates and declarations...",
-
-        "This systematic review ensures full alignment..."
+        "We ensure all documents, certificates and declarations are completed and issued correctly; as well as, works are carried out accordingly to the technical documentation, regulations, standards and the construction permits.",
+        "This systematic review ensures full alignment with state regulatory bodies and guarantees operational continuity from day one of the plant lifecycle."
       ],
-
       "image_source": "commissioning",
       "images": [
         "/services/commissioning/commissioning-1200.webp",
@@ -105,24 +76,18 @@
         "/services/commissioning/commissioning-480.webp"
       ]
     },
-
     {
       "id": "modeling",
-
       "title": "Data & Modeling",
-
       "intro_title": "Lifecycle Transition Support",
-
       "intro_text": [
-        "We use the BIM model and other tools...",
-
-        "Our in-house team uses new technology including 3D/4D modelling..."
+        "We use the BIM model and other tools to capture and coordinate all project information to build efficiently and with the highest quality.",
+        "Our in-house team uses new technology including 3D/4D modelling, laser scanning, drone flights, logistics planning, collision detection, quantity extraction, visual rendering, and virtual quality walks. Information helps us to analyse and visualize the project early-on, leading to better choices, fewer structural clashes, and optimized outcomes in the field."
       ],
-
       "content_title": "Drones & Site Analytics",
-
-      "paragraphs": ["The use of drones expands our ability to monitor..."],
-
+      "paragraphs": [
+        "The use of drones expands our ability to monitor and improve the quality of our work, provide additional information to clients and team members, and further enhance the safety of our team members on site."
+      ],
       "image_source": "data_modeling",
       "images": [
         "/services/data_modeling/data_modeling-1200.webp",
@@ -130,26 +95,18 @@
         "/services/data_modeling/data_modeling-480.webp"
       ]
     },
-
     {
       "id": "operations",
-
       "title": "Operations & Maintenance",
-
       "intro_title": "Global MRO Partnerships",
-
       "intro_text": [
-        "In year 2018 we became a construction services global partner..."
+        "In year 2018 we became a construction services global partner for Nobel Automotive Group, as well as we developed together with them a Maintenance, Repair, and Operations (MRO) service program for standardizing processes on the non-manufacturing side of their plants."
       ],
-
       "content_title": "Historic Preservation & O&M",
-
       "paragraphs": [
-        "Besides we are providing a regular O&M service...",
-
-        "The main challenge is to balance keeping old equipment running..."
+        "Besides we are providing a regular O&M service to an historic building for preserving in good condition the materials and workmanship of the building.",
+        "The main challenge is to balance keeping old equipment running while contemplating the impact of installing new, more efficient systems without disrupting structural architectural integrity."
       ],
-
       "image_source": "operations_maintenance",
       "images": [
         "/services/operations_maintenance/operations_maintenance-1200.webp",
