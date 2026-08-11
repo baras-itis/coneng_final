@@ -1,0 +1,161 @@
+{
+  "services": [
+    {
+      "id": "design",
+
+      "title": "Design",
+
+      "intro_title": "Design and Detailed Design Stages",
+
+      "intro_text": [
+        "Planning and Design is a key focus of our company Coneng..."
+      ],
+
+      "content_title": "Detailed Design Information",
+
+      "paragraphs": [
+        "Adabar coneng has all the necessary permits...",
+
+        "At the Basic Design stage, our engineers..."
+      ],
+
+      "image_source": "design",
+      "images": [
+        "/services/design/design-1200.webp",
+        "/services/design/design-800.webp",
+        "/services/design/design-480.webp"
+      ]
+    },
+
+    {
+      "id": "preconstruction",
+
+      "title": "Preconstruction",
+
+      "intro_title": "Value Analysis & Budgeting",
+
+      "intro_text": [
+        "Through pre-construction value analysis we create a complete budget..."
+      ],
+
+      "content_title": "Strategic Execution",
+
+      "paragraphs": [
+        "Early alignment during the pre-construction phase...",
+
+        "By finalizing bid packages, balancing alternative cost studies..."
+      ],
+
+      "image_source": "preconstruction",
+      "images": [
+        "/services/preconstruction/preconstruction-1200.webp",
+        "/services/preconstruction/preconstruction-800.webp",
+        "/services/preconstruction/preconstruction-480.webp"
+      ]
+    },
+
+    {
+      "id": "construction",
+
+      "title": "Construction",
+
+      "intro_title": "Partnership & Operational Readiness",
+
+      "intro_text": ["Once we've been awarded a construction project..."],
+
+      "content_title": "Execution Architecture",
+
+      "paragraphs": [
+        "During the construction phase, our focus shifts...",
+
+        "Rigorous alignment under strict ISO 9001 criteria..."
+      ],
+
+      "image_source": "construction",
+      "images": [
+        "/services/construction/construction-1200.webp",
+        "/services/construction/construction-800.webp",
+        "/services/construction/construction-480.webp"
+      ]
+    },
+
+    {
+      "id": "commissioning",
+
+      "title": "Commissioning",
+
+      "intro_title": "Lifecycle Transition Support",
+
+      "intro_text": [
+        "Our comprehensive range of services during the construction..."
+      ],
+
+      "content_title": "Compliance & Handover",
+
+      "paragraphs": [
+        "We ensure all documents, certificates and declarations...",
+
+        "This systematic review ensures full alignment..."
+      ],
+
+      "image_source": "commissioning",
+      "images": [
+        "/services/commissioning/commissioning-1200.webp",
+        "/services/commissioning/commissioning-800.webp",
+        "/services/commissioning/commissioning-480.webp"
+      ]
+    },
+
+    {
+      "id": "modeling",
+
+      "title": "Data & Modeling",
+
+      "intro_title": "Lifecycle Transition Support",
+
+      "intro_text": [
+        "We use the BIM model and other tools...",
+
+        "Our in-house team uses new technology including 3D/4D modelling..."
+      ],
+
+      "content_title": "Drones & Site Analytics",
+
+      "paragraphs": ["The use of drones expands our ability to monitor..."],
+
+      "image_source": "data_modeling",
+      "images": [
+        "/services/data_modeling/data_modeling-1200.webp",
+        "/services/data_modeling/data_modeling-800.webp",
+        "/services/data_modeling/data_modeling-480.webp"
+      ]
+    },
+
+    {
+      "id": "operations",
+
+      "title": "Operations & Maintenance",
+
+      "intro_title": "Global MRO Partnerships",
+
+      "intro_text": [
+        "In year 2018 we became a construction services global partner..."
+      ],
+
+      "content_title": "Historic Preservation & O&M",
+
+      "paragraphs": [
+        "Besides we are providing a regular O&M service...",
+
+        "The main challenge is to balance keeping old equipment running..."
+      ],
+
+      "image_source": "operations_maintenance",
+      "images": [
+        "/services/operations_maintenance/operations_maintenance-1200.webp",
+        "/services/operations_maintenance/operations_maintenance-800.webp",
+        "/services/operations_maintenance/operations_maintenance-480.webp"
+      ]
+    }
+  ]
+}
